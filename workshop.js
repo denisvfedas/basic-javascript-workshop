@@ -1,6 +1,12 @@
 function firstLetter(inputString) {
+    if(inputString){
+            return inputString[0];
+        }
+        else {
+            return undefined;
+        }
+    }
 
-}
 
 function lastLetter(inputString) {
 
